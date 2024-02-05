@@ -1,2 +1,2 @@
 FROM nginx:latest
-COPY . /usr/share/nginx/html
+COPY /var/lib/jenkins/workspace/Auto-pipeline /usr/share/nginx/html/
